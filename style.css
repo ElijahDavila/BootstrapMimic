@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body { 
+    background-image: url("images/");
+}
+​
+#mainNavbar {
+	font-size: 1.5rem;
+    font-weight: 100;
+    height: 70px;
+}
+​
+#mainNavbar a {
+    color: white !important;
+    font-size: medium !important;
+}
+​
+.dropdown-item {
+    background-color: #212326;
+}
+​
+.navbar.scrolled {
+	background: #212326;
+    transition: background 500ms;
+}
+​
+.dropdown-item:hover {
+    background-color: rgb(155, 188, 226);
+}
+.container{
+	max-width: 100vw;
+	margin: 0 auto;
+	background: #f9f9f9;
+	font-size: 24px;
+	padding: 0 0;
+}
+.parallax{
+	background: url(images/internsphoto.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+}
+.gradientbar{
+	height: 50px;
+	width: 100vw;
+}
+.gradientbar img{
+	height: 100%;
+	width: 100vw;
+}
+.crown{
+	padding: 100px 0;
+}
+.triplecrown{
+	position: center;
+	transform: translateX(-5%);
+}
+.pinkrec{
+	background-color: #F4EAE9;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+.crownfinfo{
+	padding-left: 0 120px;
+}
+.whiterec{
+	padding-top:50px;
+	padding-bottom: 50px;
+	margin: 0 120px;
+}
+.footer{
+	font-family: sans-serif;
+}
+.page-footer{
+	background-color: #212326;
+}
+.footer-copyright{
+	color: #3E4F5B;
+	font-family: cardo;
+	text-indent: 60px
+}
+.page-footer img{
+	margin-left: 45px;
+}
+a {
+	color: #3E4F5B;
+	text-decoration: none;
+}
+a:hover {
+	color: #A55547;
+	text-decoration: none;
+}
